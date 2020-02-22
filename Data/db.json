@@ -1,0 +1,129 @@
+{
+  "posts": [
+    {
+      "id": "5e516d7ac04fb31c4a3460b1",
+      "title": "do",
+      "content": "Quis irure ullamco fugiat elit",
+      "authorId": "5e516ef44088d75085658620"
+    },
+    {
+      "id": "5e516d7a6e0eb7fa4fbe23f6",
+      "title": "consequat",
+      "content": "Aliquip in non aliquip anim",
+      "authorId": "5e516ef4f1469dd7ea4db3e2"
+    },
+    {
+      "id": "5e516d7a6bfc4a2da8967055",
+      "title": "est",
+      "content": "Fugiat laboris incididunt magna",
+      "authorId": "5e516ef4f1469dd7ea4db3e2"
+    },
+    {
+      "id": "5e516d7ad2844deb651bae3e",
+      "title": "aliquip",
+      "content": "dolor tempor adipisicing",
+      "authorId": "5e516ef4dcfdf22cc6958b5e"
+    }
+  ],
+  "comments": [
+    {
+      "id": "5e516e12649bc01904db6a3f",
+      "body": "Lorem commodo",
+      "postId": "5e516d7ac04fb31c4a3460b1"
+    },
+    {
+      "id": "5e516e127678e891afee45cd",
+      "body": "ad sunt",
+      "postId": "5e516d7a6e0eb7fa4fbe23f6"
+    },
+    {
+      "id": "5e516e12c41864736f7d7f48",
+      "body": "elit incididunt",
+      "postId": "5e516d7a6e0eb7fa4fbe23f6"
+    },
+    {
+      "id": "5e516e121cd61823fb79b8d1",
+      "body": "fugiat id",
+      "postId": "5e516d7ad2844deb651bae3e"
+    },
+    {
+      "id": "5e516e1290a334a17e9b7edf",
+      "body": "velit consequat",
+      "postId": "5e516d7a6bfc4a2da8967055"
+    }
+  ],
+  "users": [
+    {
+      "id": "5e516ef44088d75085658620",
+      "name": {
+        "first": "Chrystal",
+        "last": "Bradley"
+      },
+      "age": 26,
+      "friends": [
+        {
+          "id": "5e516ef4f1469dd7ea4db3e2",
+          "name": "Cooper Maddox"
+        },
+        {
+          "id": "5e516ef4dcfdf22cc6958b5e",
+          "name": "Lacey Cain"
+        }
+      ],
+      "posts": [
+        {
+          "id": "5e516d7ac04fb31c4a3460b1",
+          "title": "do"
+        }
+      ]
+    },
+    {
+      "id": "5e516ef4f1469dd7ea4db3e2",
+      "name": {
+        "first": "Cooper",
+        "last": "Maddox"
+      },
+      "age": 26,
+      "friends": [
+        {
+          "id": "5e516ef44088d75085658620",
+          "name": "Chrystal Bradley"
+        }
+      ],
+      "posts": [
+        {
+          "id": "5e516d7a6e0eb7fa4fbe23f6",
+          "title": "consequat"
+        },
+        {
+          "id": "5e516d7a6bfc4a2da8967055",
+          "title": "est"
+        }
+      ]
+    },
+    {
+      "id": "5e516ef4108082448c1c8e91",
+      "name": {
+        "first": "Eva",
+        "last": "Michael"
+      },
+      "age": 24,
+      "friends": []
+    },
+    {
+      "id": "5e516ef4dcfdf22cc6958b5e",
+      "name": {
+        "first": "Lacey",
+        "last": "Cain"
+      },
+      "age": 24,
+      "friends": [],
+      "posts": [
+        {
+          "id": "5e516d7ad2844deb651bae3e",
+          "title": "aliquip"
+        }
+      ]
+    }
+  ]
+}

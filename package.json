@@ -1,0 +1,36 @@
+{
+  "name": "graphql_techtalk",
+  "version": "0.0.0",
+  "description": "A simple graphql server demonstration",
+  "main": "src/server.ts",
+  "author": "Pasindu Dilshan",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/server",
+    "watch": "ts-node-dev -r tsconfig-paths/register --no-notify --respawn --transpileOnly ./src/server",
+    "fakejson": "npx json-server --watch Data/db.json"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.2",
+    "@types/node": "^13.7.4",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "json-server": "^0.16.0",
+    "prettier": "^1.19.1",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.8.2"
+  }
+}
