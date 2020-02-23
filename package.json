@@ -9,7 +9,7 @@
   "scripts": {
     "start": "ts-node -r tsconfig-paths/register src/server",
     "watch": "ts-node-dev -r tsconfig-paths/register --no-notify --respawn --transpileOnly ./src/server",
-    "fakejson": "npx json-server --watch Data/db.json"
+    "json:server": "npx json-server --watch Data/db.json"
   },
   "dependencies": {
     "cors": "^2.8.5",
