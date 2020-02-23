@@ -12,6 +12,7 @@ module.exports =  {
  rules: {
    "@typescript-eslint/no-explicit-any": 0,
    "@typescript-eslint/camelcase": 0,
-   "@typescript-eslint/interface-name-prefix": [ "error", { "prefixWithI": "always" }]
+   "@typescript-eslint/interface-name-prefix": [ "error", { "prefixWithI": "always" }],
+   "@typescript-eslint/no-var-requires": 0
  }
 };
