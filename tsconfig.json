@@ -12,7 +12,8 @@
     "baseUrl": "./src",
     "paths": {
        "config": ["src/config/*"],
-       "resolvers": ["src/resolvers/*"]
+       "resolvers": ["src/resolvers/*"],
+       "util": ["src/util/*"]
     },
     "allowJs": true,
     "sourceMap": true,
