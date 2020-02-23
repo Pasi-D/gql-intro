@@ -6,7 +6,7 @@ import accessEnv from "config/accessEnv";
 
 const APP_SECRET = accessEnv("APP_SECRET");
 
-export const generateUserId = (): string => uuid();
+export const generateRandomId = (): string => uuid();
 
 export const getUserId = (context: any): string => {
   // context.req works in case of apollo-server
