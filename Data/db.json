@@ -64,6 +64,7 @@
         "first": "Chrystal",
         "last": "Bradley"
       },
+      "password": "$2y$12$NPdCUVkEsy.om67Et8CE3eSVPR4rmRTzVev3aIZmEAJKRuYVX1Eny",
       "age": 26,
       "friends": [
         {
@@ -88,6 +89,7 @@
         "first": "Cooper",
         "last": "Maddox"
       },
+      "password": "$2y$12$NPdCUVkEsy.om67Et8CE3eSVPR4rmRTzVev3aIZmEAJKRuYVX1Eny",
       "age": 26,
       "friends": [
         {
@@ -112,6 +114,7 @@
         "first": "Eva",
         "last": "Michael"
       },
+      "password": "$2y$12$NPdCUVkEsy.om67Et8CE3eSVPR4rmRTzVev3aIZmEAJKRuYVX1Eny",
       "age": 24,
       "friends": []
     },
