@@ -29,27 +29,32 @@
     {
       "id": "5e516e12649bc01904db6a3f",
       "body": "Lorem commodo",
-      "postId": "5e516d7ac04fb31c4a3460b1"
+      "postId": "5e516d7ac04fb31c4a3460b1",
+      "userId": "5e516ef4dcfdf22cc6958b5e"
     },
     {
       "id": "5e516e127678e891afee45cd",
       "body": "ad sunt",
-      "postId": "5e516d7a6e0eb7fa4fbe23f6"
+      "postId": "5e516d7a6e0eb7fa4fbe23f6",
+      "userId": "5e516ef4dcfdf22cc6958b5e"
     },
     {
       "id": "5e516e12c41864736f7d7f48",
       "body": "elit incididunt",
-      "postId": "5e516d7a6e0eb7fa4fbe23f6"
+      "postId": "5e516d7a6e0eb7fa4fbe23f6",
+      "userId": "5e516ef4dcfdf22cc6958b5e"
     },
     {
       "id": "5e516e121cd61823fb79b8d1",
       "body": "fugiat id",
-      "postId": "5e516d7ad2844deb651bae3e"
+      "postId": "5e516d7ad2844deb651bae3e",
+      "userId": "5e516ef4f1469dd7ea4db3e2"
     },
     {
       "id": "5e516e1290a334a17e9b7edf",
       "body": "velit consequat",
-      "postId": "5e516d7a6bfc4a2da8967055"
+      "postId": "5e516d7a6bfc4a2da8967055",
+      "userId": "5e516ef44088d75085658620"
     }
   ],
   "users": [
