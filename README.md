@@ -20,3 +20,10 @@ Run the ```json-server``` in the background
 ```
 yarn json-server
 ```
+Run the graphql server in development mode
+
+```
+yarn watch
+```
+
+visit http://localhost:7000/graphql to interact with graphql-playground
