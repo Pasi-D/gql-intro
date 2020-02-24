@@ -17,7 +17,7 @@ class App {
   public listen(): void {
     const PORT = +accessEnv("PORT", 7000);
     this.app.listen(PORT, () => {
-      console.info(`🚀 Server listening on port:${PORT}/${this.apolloServer.graphqlPath}`);
+      console.info(`🚀 Graphql playground ready on http://localhost:${PORT}${this.apolloServer.graphqlPath}`);
     });
   }
 
