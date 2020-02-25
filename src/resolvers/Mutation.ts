@@ -1,7 +1,12 @@
 import axios from "axios";
+import { PubSub } from "apollo-server-express";
 import { generateRandomId, createNewToken, hashPwd, getUserId, validatePassword } from "util/adapter";
 
 import accessEnv from "config/accessEnv";
+
+const POST_ADDED = "POST_ADDED";
+
+const pubsub = new PubSub();
 
 const signup = async (parent, args, context, info): any => {
   const { password, firstName, lastName } = args;
@@ -62,7 +67,7 @@ const post = async (parent, args, context, info): any => {
   };
 
   const post = (await axios.post(`http://localhost:${accessEnv("DATAPORT", 3000)}/posts`, postData)).data;
-
+  pubsub.publish(POST_ADDED, { newPost: post });
   return post;
 };
 

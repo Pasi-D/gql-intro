@@ -4,6 +4,7 @@ import { ApolloServer, gql, makeExecutableSchema } from "apollo-server-express";
 
 const Query = require("resolvers/Query");
 const Mutation = require("resolvers/Mutation");
+const Subscription = require("resolvers/Subscription");
 const User = require("resolvers/User");
 const Post = require("resolvers/Post");
 
@@ -39,6 +40,10 @@ const typeDefs = gql`
     post(title: String!, content: String!): Post
   }
 
+  type Subscription {
+    newPost: Post
+  }
+
   type User {
     id: ID!
     name: Name
@@ -66,7 +71,7 @@ const typeDefs = gql`
   }
 `;
 
-const resolvers = { Query, Mutation, User, Post };
+const resolvers = { Query, Mutation, Subscription, User, Post };
 
 const schema = makeExecutableSchema({ typeDefs, resolvers });
 
