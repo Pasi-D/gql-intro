@@ -2,6 +2,7 @@
  "compilerOptions": {
     "target": "es6",
     "module": "commonjs",
+    "moduleResolution": "node",
     "lib": [
        "dom",
        "es6",
@@ -10,7 +11,9 @@
     ],
     "baseUrl": "./src",
     "paths": {
-       "config": ["src/config/*"]
+       "config": ["src/config/*"],
+       "resolvers": ["src/resolvers/*"],
+       "util": ["src/util/*"]
     },
     "allowJs": true,
     "sourceMap": true,
